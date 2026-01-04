@@ -79,6 +79,96 @@ Interactive dashboards were created to visualize:
 - Revenue analysis and loss estimation
 - Geographic booking distribution
 - Lead time and cancellation rate relationships
+- 
+The project includes comprehensive Power BI dashboards organized into multiple analytical views:
+
+#### Temporal Analysis Dashboards
+
+**Revenue Analysis Dashboard**
+- Average booking lead time: 104.11 days
+- Maximum booking lead time: 737 days  
+- Total rooms reserved: 119.21K
+- Total cancelled reservations: 44.199K
+- Cancellation rate: 37.08%
+- Revenue trends by quarter and room type
+- Average lead time analysis by assigned room type
+- Revenue vs. lead time correlation visualization
+
+**Reservations Dashboard**
+- Temporal heatmap showing booking density by month (2015-2017)
+- Geographic distribution map of bookings by nationality
+- Booking distribution by lead time groups (0-7, 8-15, 16-30, 31-60, 61-120, 121-180, 180+ days)
+- Market segment analysis (Groups, Online TA, Direct, Corporate, Complementary, Aviation, Undefined)
+
+#### General Analysis Dashboards
+
+**Global Overview Dashboard**
+- Total rooms reserved: 119.21K
+- Total revenue: €12.16M
+- Potential cancelled revenue: €558.84K
+- Total cancelled reservations: 44.199K
+- Cancellation rate: 37.08%
+- Revenue by market segment (Online TA, Offline TA/TO, Groups, Direct, Corporate, Aviation, Complementary, Undefined)
+- Effective reservations vs. total cancellations comparison by hotel type
+- Cancellations by quarter analysis (T1-T4 across 2015-2017)
+
+**Market Segment Heatmap**
+- Detailed temporal perspective showing cancellation patterns
+- Breakdown by hotel type (City Hotel vs. Resort Hotel)
+- Year-over-year comparison (2015, 2016, 2017)
+- Quarterly distribution (T1, T2, T3, T4) for each market segment:
+  - Aviation (0.12%)
+  - Complementary (0.13-0.20%)
+  - Corporate (1.45-2.24%)
+  - Direct (2.39-4.38%)
+  - Groups (21.77-27.36%)
+  - Offline TA/TO (16.21-18.78%)
+  - Online TA (32.78-46.91%)
+  - Undefined (0.00%)
+
+#### Financial Analysis Dashboards
+
+**Revenue by Family Composition**
+- Total rooms reserved: 119.21K
+- Total revenue: €12.16M
+- Potential cancelled revenue: €558.84K
+- Average revenue per booking: €101.97
+- Cancellation rate: 37.08%
+- Revenue trends by quarter (T3 2015 - T3 2017)
+- Cancellation rate by revenue groups (€0-49, €50-99, €100-149, €150-199, €200-250, €250+)
+- Total reservations vs. average revenue by family type:
+  - With babies
+  - With children
+  - Complete family
+  - Children only
+  - Infant only
+  - Without dependents
+
+**Market Segment Revenue Analysis**
+- Total bookings by segment (Online TA, Offline TA/TO, Groups, Direct, Corporate, Complementary, Aviation, Undefined)
+- Average revenue by segment:
+  - Online TA: €117.32
+  - Direct: €115.63
+  - Aviation: €100.99
+  - Offline TA/TO: €87.48
+  - Groups: €79.56
+  - Corporate: €69.53
+  - Undefined: €15.00
+  - Complementary: €2.95
+- Geographic distribution of bookings worldwide
+
+### Dashboard Visualizations
+
+The Power BI dashboards feature:
+- **Interactive Filters**: Year selection (2015-2017), quarter selection (All/T1/T2/T3/T4), hotel type toggle (City Hotel/Resort Hotel), cancelled booking filter (Yes/No)
+- **Time Series Visualizations**: Line charts showing trends over time for key metrics
+- **Comparative Analysis**: Side-by-side hotel type comparisons
+- **Geographic Maps**: Interactive world map showing booking origins
+- **Heatmaps**: Temporal and categorical heatmaps for pattern identification
+- **KPI Cards**: Real-time metric tracking with trend indicators
+- **Bar Charts**: Market segment and revenue group distributions
+
+> **Note**: Interactive Power BI dashboards are available in the `/reports` folder. The dashboards provide drill-down capabilities and real-time filtering for detailed analysis.
 
 ## Key Findings
 
