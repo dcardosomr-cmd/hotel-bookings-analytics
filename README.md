@@ -36,7 +36,7 @@ This project analyses 119,210 hotel booking records from a City Hotel and a Reso
 
 ## 1. Global Overview & Cancellation Patterns
 
-![Global Overview Dashboard](dashboards/Screenshot_2026-01-04_200653.png)
+![Global Overview Dashboard](dashboards/Screenshot%202026-01-04%20200653.png)
 
 The overall cancellation rate of 37.08% means more than 1 in 3 bookings never converts to a stay. City Hotel bears the heavier burden, with significantly higher effective reservations but also higher absolute cancellation volume compared to Resort Hotel.
 
@@ -58,7 +58,7 @@ Direct bookings generate nearly as much revenue per booking as Online TA (€115
 
 ## 2. Market Segment Heatmap
 
-![Market Segment Heatmap](dashboards/Screenshot_2026-01-04_200736.png)
+![Market Segment Heatmap](dashboards/Screenshot%202026-01-04%20200736.png)
 
 The temporal heatmap breaks down cancellation patterns by hotel type, year, quarter, and market segment — revealing exactly where the problem concentrates.
 
@@ -75,7 +75,7 @@ Year-over-year, the data shows cancellation patterns are structural rather than 
 
 ## 3. Revenue & Lead Time Analysis
 
-![Revenue Analysis Dashboard](dashboards/Screenshot_2026-01-04_200939.png)
+![Revenue Analysis Dashboard](dashboards/Screenshot%202026-01-04%20200939.png)
 
 Total revenue across both properties reached €12.16M over the reporting period, with an average lead time of 104.11 days and a maximum of 737 days (2 years in advance). The room pricing table reveals significant ADR variation by room type and hotel:
 
@@ -96,7 +96,7 @@ City Hotel commands higher ADR for premium room types (E–G), while Resort Hote
 
 ## 4. Reservations & Geographic Distribution
 
-![Reservations Dashboard](dashboards/Screenshot_2026-01-04_201005.png)
+![Reservations Dashboard](dashboards/Screenshot%202026-01-04%20201005.png)
 
 The temporal heatmap reveals clear seasonality: summer months (June–August) show the darkest concentration across all three years, while January and November are consistently the weakest. Data coverage begins in T3 2015 and runs through T3 2017, with 2016 showing the fullest year of bookings.
 
@@ -108,7 +108,7 @@ Average lead time by market segment shows Groups booking furthest in advance (~2
 
 ## 5. Revenue by Family Composition & Cancellation Risk
 
-![Revenue by Family Composition](dashboards/Screenshot_2026-01-04_200837.png)
+![Revenue by Family Composition](dashboards/Screenshot%202026-01-04%20200837.png)
 
 Revenue by quarter shows City Hotel consistently outperforming Resort Hotel, with both properties peaking in Q3 each year. The quarterly trend from T3 2015 through T3 2017 shows steady growth with clear seasonal cycles.
 
@@ -131,7 +131,7 @@ The family composition chart shows that guests without dependents generate the o
 
 ## 6. Market Segment Revenue & Geography
 
-![Market Segment Revenue](dashboards/Screenshot_2026-01-04_200911.png)
+![Market Segment Revenue](dashboards/Screenshot%202026-01-04%20200911.png)
 
 This dashboard breaks down both booking volume and average revenue by market segment. Online TA leads in total reservations (~56K bookings) and commands the highest average revenue at €117.32 per booking. Direct bookings follow closely at €115.63 — nearly identical revenue but with far lower cancellation risk.
 
@@ -154,7 +154,7 @@ The geographic map confirms European concentration, with Portugal as the dominan
 
 ## 7. Room Revenue & Lead Time Correlation
 
-![Room Revenue Dashboard](dashboards/Screenshot_2026-01-04_201025.png)
+![Room Revenue Dashboard](dashboards/Screenshot%202026-01-04%20201025.png)
 
 The revenue vs. lead time chart confirms the critical relationship: bookings made 0–30 days before arrival generate the highest total revenue, while the 180+ day window contributes proportionally less revenue despite occupying cancellation risk for the longest period.
 
@@ -213,13 +213,13 @@ Full SQL documentation is available in `/src`.
 hotel-bookings-analytics/
 ├── README.md
 ├── dashboards/
-│   ├── Screenshot_2026-01-04_200653.png    # Global Overview
-│   ├── Screenshot_2026-01-04_200736.png    # Market Segment Heatmap
-│   ├── Screenshot_2026-01-04_200837.png    # Revenue by Family Composition
-│   ├── Screenshot_2026-01-04_200911.png    # Market Segment Revenue & Geography
-│   ├── Screenshot_2026-01-04_200939.png    # Revenue & Lead Time
-│   ├── Screenshot_2026-01-04_201005.png    # Reservations & Geography
-│   └── Screenshot_2026-01-04_201025.png    # Room Revenue & Lead Time
+│   ├── Screenshot 2026-01-04 200653.png    # Global Overview
+│   ├── Screenshot 2026-01-04 200736.png    # Market Segment Heatmap
+│   ├── Screenshot 2026-01-04 200837.png    # Revenue by Family Composition
+│   ├── Screenshot 2026-01-04 200911.png    # Market Segment Revenue & Geography
+│   ├── Screenshot 2026-01-04 200939.png    # Revenue & Lead Time
+│   ├── Screenshot 2026-01-04 201005.png    # Reservations & Geography
+│   └── Screenshot 2026-01-04 201025.png    # Room Revenue & Lead Time
 ├── data/
 │   ├── hotel_bookings_RAW.csv              # Original dataset (119,390 records)
 │   └── hotel_bookings_CLEAN.csv            # Cleaned dataset (119,210 records)
