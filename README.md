@@ -207,33 +207,6 @@ Full SQL documentation is available in `/src`.
 
 ---
 
-## Repository Structure
-
-```
-hotel-bookings-analytics/
-├── README.md
-├── dashboards/
-│   ├── Screenshot 2026-01-04 200653.png    # Global Overview
-│   ├── Screenshot 2026-01-04 200736.png    # Market Segment Heatmap
-│   ├── Screenshot 2026-01-04 200837.png    # Revenue by Family Composition
-│   ├── Screenshot 2026-01-04 200911.png    # Market Segment Revenue & Geography
-│   ├── Screenshot 2026-01-04 200939.png    # Revenue & Lead Time
-│   ├── Screenshot 2026-01-04 201005.png    # Reservations & Geography
-│   └── Screenshot 2026-01-04 201025.png    # Room Revenue & Lead Time
-├── data/
-│   ├── hotel_bookings_RAW.csv              # Original dataset (119,390 records)
-│   └── hotel_bookings_CLEAN.csv            # Cleaned dataset (119,210 records)
-├── notebooks/
-│   ├── Tratamento-dos-Dados.ipynb          # Data cleaning notebook
-│   └── Tratamento-dos-Dados.html           # HTML export
-├── src/
-│   └── Análise Exploratória - Documentação Interna.sql  # SQL queries
-└── reports/
-    └── Análise Exploratória - Documentação...           # Analysis documentation
-```
-
----
-
 ## Future Enhancements
 
 - Machine learning model for cancellation prediction using lead time, segment, and deposit features
